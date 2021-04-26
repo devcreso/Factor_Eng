@@ -1,0 +1,107 @@
+*{
+    box-sizing: border-box;
+    font-size: 20px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body {
+    background-image: url(../public/img/bg-image.png);
+}
+
+.cabecalho {
+    align-items: center;
+    background-color: #233374;
+    border-bottom: solid 2px #fbdf34;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.horario {
+    margin-right: 50px;
+}
+
+.socialMedias ul {
+    display: flex;
+}
+
+.socialMedias li {
+    padding: 10px;
+}
+
+.navegacao {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu ul {
+    display: flex;
+    margin-right: 100px;
+}
+
+.menu ul li {
+    padding: 0px 15px;
+}
+/*MAIN*/
+.conteudoPrincipal {
+    align-items: center;
+    display: flex;
+    flex-flow: column wrap;
+    padding: 150px 200px 150px 200px;
+}
+
+.botoes {
+    display: flex; 
+    justify-content: space-between;
+    margin-top: 25px;
+    width: 400px;
+}
+
+
+.botao1 {
+    background-color: #233374;
+    border-radius: 50px;
+    box-shadow: 2px 2px 1px 1px black;
+    color: #fbdf34;
+    margin: 10px 10px 0 0;
+    padding: 20px;
+    text-align: center;
+    width: 200px;
+}
+
+.botao2 {
+    background-color: #fbdf34;
+    border-radius: 50px;
+    box-shadow: 2px 2px 1px 1px black;
+    color: #233374;
+    margin: 10px 0 0 10px;
+    padding: 20px;
+    text-align: center;
+    width: 200px;
+}
+
+.conteudoPrincipal p{
+    margin-top: 25px;
+    text-align: justify;
+    width: 400px;
+}
+
+.mainSobre {
+    height: 600px;
+}
+/*RODAPÉ*/
+.containerRodape {
+    border-top: #fbdf34 solid 2px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+    width: 80%;
+}
+
+.rodape {
+    display: flex;
+    justify-content: center;
+}
