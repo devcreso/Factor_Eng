@@ -1,5 +1,6 @@
 *{
     box-sizing: border-box;
+    font-family: 'Comfortaa', cursive;
     font-size: 20px;
     list-style: none;
     margin: 0;
@@ -9,41 +10,73 @@
 
 body {
     background-image: url(../public/img/bg-image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bodyPages {
+    background-image: url(../public/img/bg-pages.png);
 }
 
 .cabecalho {
     align-items: center;
     background-color: #233374;
-    border-bottom: solid 2px #fbdf34;
+    border-bottom: solid 1px #fbdf34;
     display: flex;
+    height: 30px;
     justify-content: flex-end;
+}
+.cabecalho p {
+    margin-left: 12px;
 }
 
 .horario {
+    font-size: 15px;
     margin-right: 50px;
 }
 
+.logo {
+    display: flex;
+    align-items: center;
+}
+.logo img {
+    margin: 0 20px;
+}
+
+.fim {
+    color: #fbdf34;
+}
 .socialMedias ul {
     display: flex;
+    margin-right: 15px;
 }
 
 .socialMedias li {
+    font-size: 15px;
     padding: 10px;
+}
+
+.socialMedias ul li a {
+    color: black;
 }
 
 .navegacao {
     align-items: center;
     display: flex;
     justify-content: space-between;
+    background-color: #233374;
 }
 
 .menu ul {
     display: flex;
-    margin-right: 100px;
+    margin-right: 0px;
 }
 
 .menu ul li {
-    padding: 0px 15px;
+    padding: 0px 25px;
+}
+.menu ul li a {
+    color: #fbdf34;
 }
 /*MAIN*/
 .conteudoPrincipal {
@@ -64,7 +97,7 @@ body {
 .botao1 {
     background-color: #233374;
     border-radius: 50px;
-    box-shadow: 2px 2px 1px 1px black;
+    box-shadow: 0 4px 20px 0 rgb(0 0 0 / 80%);
     color: #fbdf34;
     margin: 10px 10px 0 0;
     padding: 20px;
@@ -75,7 +108,7 @@ body {
 .botao2 {
     background-color: #fbdf34;
     border-radius: 50px;
-    box-shadow: 2px 2px 1px 1px black;
+    box-shadow: 0 4px 20px 0 rgb(0 0 0 / 80%);
     color: #233374;
     margin: 10px 0 0 10px;
     padding: 20px;
@@ -89,8 +122,36 @@ body {
     width: 400px;
 }
 
-.mainSobre {
-    height: 600px;
+.conteudo {
+    width: 600px;
+}
+
+.conteudo h1 {
+    font-size: 2em;
+    margin: 10px 0 25px 0;
+}
+.conteudo p {
+    text-align: justify;
+}
+
+.tituloPagSobre {
+    font-size: 2.5em;
+    padding: 25px;
+    text-align: center;
+}
+
+.conteudoTotal {
+    display: flex;
+    height: 500px;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    background-color: white;
+}
+.conteudoTotal img {
+    align-self: center;
+    width: 300px;
+    height: 350px;
+    justify-content: flex-end;
 }
 /*RODAPÉ*/
 .containerRodape {
