@@ -7,7 +7,9 @@
     padding: 0;
     text-decoration: none;
 }
-
+a {
+    color: inherit;
+}
 body {
     background-image: url(../public/img/bg-image.png);
     background-repeat: no-repeat;
@@ -39,13 +41,19 @@ body {
     display: flex;
     align-items: center;
 }
+
 .logo img {
     margin: 0 20px;
+}
+
+.inicio{
+    color: #fff;
 }
 
 .fim {
     color: #fbdf34;
 }
+
 .socialMedias ul {
     display: flex;
     margin-right: 15px;
@@ -78,6 +86,9 @@ body {
 .menu ul li a {
     color: #fbdf34;
 }
+.menu ul li a:hover{
+    text-decoration: underline;
+}
 /*MAIN*/
 .conteudoPrincipal {
     align-items: center;
@@ -97,7 +108,6 @@ body {
 .botao1 {
     background-color: #233374;
     border-radius: 50px;
-    box-shadow: 0 4px 20px 0 rgb(0 0 0 / 80%);
     color: #fbdf34;
     margin: 10px 10px 0 0;
     padding: 20px;
@@ -108,12 +118,15 @@ body {
 .botao2 {
     background-color: #fbdf34;
     border-radius: 50px;
-    box-shadow: 0 4px 20px 0 rgb(0 0 0 / 80%);
     color: #233374;
     margin: 10px 0 0 10px;
     padding: 20px;
     text-align: center;
     width: 200px;
+}
+
+.botao1:hover, .botao2:hover {
+    box-shadow: 0 4px 20px 0 rgb(0 0 0 / 80%);
 }
 
 .conteudoPrincipal p{
@@ -134,7 +147,27 @@ body {
     text-align: justify;
 }
 
-.tituloPagSobre {
+.containerServicos {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0px 20px;
+    padding: 0px 80px;
+}
+
+.servicos {
+    box-shadow: 0 4px 20px 0 rgb(0 0 0 / 30%);  
+    height: 350px;
+    margin: 0px 15px 50px 25px;
+    vertical-align: top;
+    width: 400px;
+}
+.servicos img {
+    padding: 5px;
+    height: 50%;
+    width: 100%;
+}
+.tituloPag {
     font-size: 2.5em;
     padding: 25px;
     text-align: center;
